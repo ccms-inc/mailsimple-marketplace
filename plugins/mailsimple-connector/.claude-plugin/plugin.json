@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "mailsimple-connector",
+  "displayName": "MAILsimple — Mail (IMAP/SMTP) Connector",
+  "version": "1.5.0",
+  "description": "Connect Claude to your mailboxes over a self-hosted, remote MCP server (Streamable HTTP). Read, search, organize, draft, and send mail across any mix of IMAP/SMTP and Outlook/Office 365 accounts (Gmail coming soon). Mailbox credentials live on YOUR server, encrypted at rest — never in this plugin and never sent to Anthropic.",
+  "author": {
+    "name": "CCMS Hosting (Joe Charnin)",
+    "email": "ccmshightech@gmail.com",
+    "url": "https://ccmshightech.com"
+  },
+  "homepage": "https://ccmshightech.com/mailsimple/",
+  "repository": "https://github.com/ccmshightech/mailsimple-marketplace",
+  "license": "proprietary",
+  "keywords": [
+    "email",
+    "imap",
+    "smtp",
+    "outlook",
+    "mailbox",
+    "mcp"
+  ],
+  "defaultEnabled": false,
+  "mcpServers": "./.mcp.json"
+}
