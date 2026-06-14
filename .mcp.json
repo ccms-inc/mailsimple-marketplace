@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "mailsimple": {
+      "type": "http",
+      "url": "${MAILSIMPLE_MCP_URL}",
+      "headers": {
+        "Authorization": "Bearer ${MAILSIMPLE_CONNECTOR_KEY}"
+      }
+    }
+  }
+}
