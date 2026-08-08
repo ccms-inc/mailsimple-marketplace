@@ -11,7 +11,7 @@ key** — and Claude connects.
 
 > **You need a MAILsimple account.** This plugin connects to a MAILsimple server
 > operated by CCMS Hosting; it does not include the server. Get your endpoint URL
-> and key at **https://ccmshightech.com/mailsimple/** (or from your CCMS contact).
+> and key at **https://ccmssolutions.com/mailsimple/** (or from your CCMS contact).
 
 ---
 
@@ -57,20 +57,20 @@ plugin:
 
 | Variable | Example | Notes |
 |----------|---------|-------|
-| `MAILSIMPLE_MCP_URL` | `https://mailsimple.ccmshightech.com/` | The endpoint CCMS gives you. **HTTPS, trailing slash.** |
+| `MAILSIMPLE_MCP_URL` | `https://mailsimple.ccmssolutions.com/` | The endpoint CCMS gives you. **HTTPS, trailing slash.** |
 | `MAILSIMPLE_CONNECTOR_KEY` | (the key CCMS issues you) | Sent as `Authorization: Bearer <key>`. Treat as a password. |
 
 Set them in the environment Claude Code runs in:
 
 ```bash
 # macOS / Linux (add to your shell profile)
-export MAILSIMPLE_MCP_URL="https://mailsimple.ccmshightech.com/"
+export MAILSIMPLE_MCP_URL="https://mailsimple.ccmssolutions.com/"
 export MAILSIMPLE_CONNECTOR_KEY="the-key-ccms-gave-you"
 ```
 
 ```powershell
 # Windows PowerShell (persist for your user)
-setx MAILSIMPLE_MCP_URL "https://mailsimple.ccmshightech.com/"
+setx MAILSIMPLE_MCP_URL "https://mailsimple.ccmssolutions.com/"
 setx MAILSIMPLE_CONNECTOR_KEY "the-key-ccms-gave-you"
 ```
 
@@ -124,4 +124,4 @@ scales to any size; export PNG rasters from it for directory listings.
 ---
 
 _MAILsimple is built and operated by **CCMS Hosting** (Complete Content
-Management Services, Inc.). Support: ccmshightech@gmail.com · +1-954-693-6422._
+Management Services, Inc.). Support: support@ccmssolutions.com · +1-954-693-6422._

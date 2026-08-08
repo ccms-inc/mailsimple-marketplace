@@ -1,12 +1,12 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace-manifest.json",
   "name": "ccms-hosting",
-  "description": "CCMS Hosting plugins for Claude — self-hosted connectors built and operated by CCMS Hightech.",
+  "description": "CCMS Hosting plugins for Claude — self-hosted connectors built and operated by Complete Content Management Services.",
   "version": "1.0.0",
   "owner": {
     "name": "CCMS Hosting (Joe Charnin)",
-    "email": "ccmshightech@gmail.com",
-    "url": "https://ccmshightech.com"
+    "email": "support@ccmssolutions.com",
+    "url": "https://ccmssolutions.com"
   },
   "metadata": {
     "pluginRoot": "./plugins"
@@ -20,9 +20,9 @@
       "version": "1.5.0",
       "author": {
         "name": "CCMS Hosting (Joe Charnin)",
-        "email": "ccmshightech@gmail.com"
+        "email": "support@ccmssolutions.com"
       },
-      "homepage": "https://ccmshightech.com/mailsimple/",
+      "homepage": "https://ccmssolutions.com/mailsimple/",
       "repository": "https://github.com/ccms-inc/mailsimple-marketplace",
       "license": "proprietary",
       "category": "productivity",
