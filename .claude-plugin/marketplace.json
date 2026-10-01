@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace-manifest.json",
   "name": "ccms-hosting",
-  "description": "CCMS Hosting plugins for Claude — self-hosted connectors built and operated by Complete Content Management Services.",
+  "description": "CCMS Hosting plugins for Claude — connectors built and operated by Complete Content Management Services.",
   "version": "1.0.0",
   "owner": {
     "name": "CCMS Hosting (Joe Charnin)",
@@ -16,13 +16,13 @@
       "name": "mailsimple-connector",
       "source": "./plugins/mailsimple-connector",
       "displayName": "MAILsimple — Mail (IMAP/SMTP) Connector",
-      "description": "Connect Claude to your mailboxes over a self-hosted, remote MCP server. Read, search, organize, and send mail across IMAP/SMTP and Outlook/Office 365 accounts (Gmail coming soon). Credentials stay on your own server, encrypted at rest.",
-      "version": "1.5.0",
+      "description": "Connect Claude to your mailboxes over a remote MCP server operated by CCMS. Read, search, organize, and send mail across IMAP/SMTP and Outlook/Office 365 accounts. Credentials are stored encrypted on the MAILsimple server. Free for one mailbox; Pro is $9/month or $90/year for unlimited mailboxes.",
+      "version": "1.5.1",
       "author": {
         "name": "CCMS Hosting (Joe Charnin)",
         "email": "support@ccmssolutions.com"
       },
-      "homepage": "https://ccmssolutions.com/mailsimple/",
+      "homepage": "https://mailsimple.ccmssolutions.com",
       "repository": "https://github.com/ccms-inc/mailsimple-marketplace",
       "license": "proprietary",
       "category": "productivity",
@@ -37,8 +37,7 @@
       ],
       "tags": [
         "email",
-        "productivity",
-        "self-hosted"
+        "productivity"
       ]
     }
   ]

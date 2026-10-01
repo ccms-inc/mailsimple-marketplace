@@ -2,7 +2,7 @@
   "mcpServers": {
     "mailsimple": {
       "type": "http",
-      "url": "${MAILSIMPLE_MCP_URL}",
+      "url": "${MAILSIMPLE_MCP_URL:-https://mailsimple-mcp.ccmssolutions.com/mcp}",
       "headers": {
         "Authorization": "Bearer ${MAILSIMPLE_CONNECTOR_KEY}"
       }
